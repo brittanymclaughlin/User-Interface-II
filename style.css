@@ -20,7 +20,6 @@ body{
   nav a:first-child{
     margin-left:0px;
   }
-  }
   nav a:hover{
     color: teal;
   }
@@ -81,7 +80,6 @@ body{
     display:flex;
     margin-bottom:20px;
     flex-wrap:nowrap;
-    justify:space-between;
   }
   #hi{
     font-size:35px;
