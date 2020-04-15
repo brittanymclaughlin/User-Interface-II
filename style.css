@@ -76,7 +76,7 @@ body{
     display:flex;
     margin-bottom:20px;
     flex-wrap:nowrap;
-    justify:space-between;
+
   }
   #hi{
     font-size:35px;
