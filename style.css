@@ -19,9 +19,9 @@ body{
     color: black;
     text-transform:uppercase;
     font-size:2.5rem;
-    margin-left:100px;
-    padding-left:30px;
-    padding-right:15px;
+    margin-left:5%;
+    padding-left:2%;
+    padding-right:2%;
     font-family: 'Manrope', sans-serif;
    
     
@@ -95,24 +95,25 @@ body{
     margin:2%;
     flex-wrap:nowrap;
     padding:.5%;
-    width:80vw;
+    width:95vw;
     border:1px solid lightslategray;
   }
   #hi{
     font-size:5rem;
+    font-family: 'Kristi', cursive;
   }
   .gallery .gallimages img{
-    width:200px;
-    height:200px;
-    margin:20px;
+    width:18vw;
+    height:18vw;
   }
   .gallery{
     display:flex;
     margin-bottom:50px;
+    justify-content: space-evenly;
   }
   .gallimages{
     border:1px solid lightslategrey;
-    margin-right:5px;
+    padding:2%
   }
   #top{
     background-color:darkcyan;
@@ -136,7 +137,8 @@ body{
       font-size:1.3rem;
     }
     #heading{
-     flex-direction:column;
+     justify-content:flex-start;
+     margin:0%
     
     }
     #heading a{
@@ -155,14 +157,17 @@ body{
     }
     .gallery{
       flex-direction: column;
-      border:1px solid red;
-      justify-content: center;
+      align-items: center;
+      align-content: center;
     }
     .gallery .gallimages img{
-      margin:10%;
+      height:35vh;
+      width:75vw;
     }
     .gallery .gallimages{
-      width:80vw;
+      width:auto;
+      margin-bottom:1.5%
+      
     }
 }
   @keyframes navigation {
