@@ -60,8 +60,8 @@ body{
   }
   footer{
    background-color:gray;
-    font-size:11px;
-    height:100px;
+    font-size:1.1rem;
+    height:10vh;
     width:100vw;
     margin:0%;
     padding-top:7%;
@@ -75,17 +75,17 @@ body{
   #bigpic{
     width:60%;
     display:block;
-    padding-top:0px;
+    padding-top:0%;
   }
   #individual p{
     margin-top:1%;
-    text-indent:35px;
+    text-indent:10%;
   }
   
   #aboutmesection{
     display:block;
-    width:40%;
-    padding:20px;
+    width:50%;
+    padding:2%;
     font-size: 1.6rem;
     order:2;
   }
@@ -108,7 +108,7 @@ body{
   }
   .gallery{
     display:flex;
-    margin-bottom:50px;
+    margin-bottom:5%;
     justify-content: space-evenly;
   }
   .gallimages{
@@ -121,8 +121,17 @@ body{
   
   @media (max-width: 800px){
 
-
-
+    #bigpic {
+      width:50vw;
+    }
+    nav a{
+      font-size:2.2rem;
+    }
+    #heading{
+      justify-content: space-evenly;
+      align-content: center;
+      align-items: center;
+    }
   }
   @media (max-width: 500px){
 
